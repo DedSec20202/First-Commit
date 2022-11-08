@@ -1,0 +1,258 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-left: 405px;
+    margin-right: 405px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Info */
+
+.header {
+    background-color: #C8A35F;
+    font-size: 12px;
+}
+
+.header__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    color: #FFFFFF;
+}
+
+.header__lang {
+    display: flex;
+    column-gap: 10px;
+}
+
+.header__lang__eng, .header__lang__fr {
+    opacity: 0.5;
+}
+
+/* Header Content */
+
+/* Header Content Logo */
+
+.header__contents {
+    background-color: #2F343A;
+    padding: 27px 0;
+}
+
+.header__contents .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content {
+    color: #FFFFFF;
+}
+
+.header__logo {
+    display: flex;
+    column-gap: 30px;
+
+}
+
+.placeholder__office {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.placeholder__office__img {
+    width: 25px;
+}
+
+/* Header Content Nav */
+
+.header__nav {
+    display: flex;
+    justify-content: end;
+    column-gap: 30px;
+}
+
+.header__nav__link {
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* First Screen */
+
+.first__sreen {
+    background: linear-gradient(0deg, rgba(47, 52, 58, 0.75), rgba(47, 52, 58, 0.75)), url(../img/first-screen/car.png);
+    color: #FFFFFF; 
+    max-height: 620px;
+}
+
+.first__sreen .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first__sreen__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 45px;
+    padding: 45px 71px;
+    border: 1px solid #C8A35F;
+    margin-top: 155px;
+    margin-bottom: 140px;
+}
+
+.first__sreen__content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.first__sreen__content p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mouse {
+    margin-bottom: 50px;
+}
+
+.mouse__img {
+    width: 30px;
+}
+
+/* Srvices */
+
+.srvices {
+    background-color: #393F47;
+    padding: 120px 0;
+}
+
+.srvice img {
+    margin-bottom: 40px;
+}
+
+.srvices__content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.srvices__content__info {
+    color: #FFFFFF;
+}
+
+.srvices__content__info h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.srvices__content__info p {
+    font-weight: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 28px;
+}
+
+.srvices__content__info__link {
+    color: #FFFFFF;
+    background-color: #C8A35F;
+    padding: 18px 48px;
+}
+
+.srvices__content__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.srvices__content__nav__back, .srvices__content__nav__next {
+    display: flex;
+    column-gap: 30px;
+    color: #C8A35F;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* All Services */
+
+.all__services {
+    background-color: #2F343A;
+}
+
+.all__services__line {
+    width: 90px;
+}
+
+.all__services .container h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+/* All Services Btn */
+
+.all__services__line {
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.all__services__title {
+    margin-bottom: 60px;
+}
+
+.all__services__btns {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1px;
+    row-gap: 1px;
+    padding-bottom: 120px;
+}
+
+.all__services__first__btn {
+    display: flex;
+    flex-direction: column;align-items: center;
+    padding: 35px 42px;
+    background-color: #C8A35F;
+    max-width: 276px;
+    width: 100%;
+}
+
+.all__services__btn {
+    display: flex;
+    flex-direction: column;align-items: center;
+    padding: 35px 42px;
+    background-color: #393F47;
+    max-width: 276px;
+    width: 100%;
+}
+
+.all__services__btn__first__img {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 100%;
+    margin-bottom: 23px;
+    width: 70px;
+}
+
+.all__services__btn__img {
+    margin-top: 20px;
+    margin-bottom: 43px;
+    width: 30px;
+}
+
+.all__services__first__btn p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+}
